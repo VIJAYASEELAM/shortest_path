@@ -22,6 +22,7 @@ export default class PathfindingVisualizer extends Component {
     const grid = getInitialGrid();
     this.setState({grid});
   }
+  //ok
 
   handleMouseDown(row, col) {
     const newGrid = getNewGridWithWallToggled(this.state.grid, row, col);
